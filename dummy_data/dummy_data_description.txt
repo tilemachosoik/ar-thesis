@@ -1,0 +1,7 @@
+1st column: cummulative game time (from 0 to 40 minutes)
+2nd column: team id (A or B)
+3rd column: player id (P1, P2, ..., P12)
+4th column: x position in 2D space
+5th column: y position in 2D space
+6th column: shoot type (Free-throw, 2p or 3p)
+7th column: missed (0) or successful (1) 
