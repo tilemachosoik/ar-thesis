@@ -1,0 +1,89 @@
+input_video_url: "/home/tilemachos/workspace/graphics_rendering_thesis/undistorted.mp4"
+output_video_url: "output_video.mp4"
+calibration_file: "lv_calib_full.npz"
+data_url: "dummy_data/dummy_data.csv"
+camera_type: "fisheye"
+opengl_rendering:
+  gpu_id: 0
+  shots:
+    green_circle_path: "shotchart_icons/green_circle.png"
+    red_x_path: "shotchart_icons/red_x.png"
+    black_dot_path: "shotchart_icons/black_dot.png"
+  logos:
+    logo-1:
+      path: "logos/promitheas_academy_logo.png"
+      translation: [14., 7.2, 0.] # 3D world coordinates
+      orientation: [0., 0., 0.] # angle-axis representation
+      scaling: [3.2, 3.2, 1.]
+    logo-2:
+      path: "logos/nous_orange_black_no_tagline.png"
+      translation: [18.2, 3.8, 0.] # 3D world coordinates
+      orientation: [0., 0., 0.] # angle-axis representation
+      scaling: [2.65, 1.4, 1.]
+    logo-3:
+      path: "logos/eok_text.png"
+      translation: [9.7, 12., 0.] # 3D world coordinates
+      orientation: [0., 0., 0.] # angle-axis representation
+      scaling: [2.65, 2.5, 1.]  
+  names:
+    teamA: "Panathinaikos BC"
+    teamB: "Olympiacos BC"
+    teamA_players:
+      name_teamA_player1: "Panagiotis Kalaitzakis"
+      name_teamA_player2: "Nate Wolters"
+      name_teamA_player3: "Paris Lee"
+      name_teamA_player4: "Eleftherios Bochoridis"
+      name_teamA_player5: "Georgios Kalaitzakis"
+      name_teamA_player6: "Marius Grigonis"
+      name_teamA_player7: "Derrick Williams"
+      name_teamA_player8: "Dimitris Agravanis"
+      name_teamA_player9: "Mateusz Ponitka"
+      name_teamA_player10: "Eleftherios Matzoukas"
+      name_teamA_player11: "Georgios Papagiannis"
+      name_teamA_player12: "Arturas Gudaitis"
+    teamB_players:
+      name_teamB_player1: "Thomas Walkup"
+      name_teamB_player2: "Michalis Loutzis"
+      name_teamB_player3: "Giannoulis Larentzakis"
+      name_teamB_player4: "George Papas"
+      name_teamB_player5: "Kostas Sloukas"
+      name_teamB_player6: "Shaquielle McKissic"
+      name_teamB_player7: "Sasha Vezenkov"
+      name_teamB_player8: "Kostas Papanikolaou"
+      name_teamB_player9: "Alec Peters"
+      name_teamB_player10: "Moustapha Fall"
+      name_teamB_player11: "Tarik Black"
+      name_teamB_player12: "Joel Bolomboy"
+  tab_logos:
+    logo_teamA: "logos/panathinaikos_bc_logo.png"
+    logo_teamB: "logos/olympiacos_bc_logo.png"
+    logo_teamA_players:
+      logo_teamA_player1: "logos/panagiotis_kalaitzakis_logo.png"
+      logo_teamA_player2: ""
+      logo_teamA_player3: ""
+      logo_teamA_player4: ""
+      logo_teamA_player5: ""
+      logo_teamA_player6: ""
+      logo_teamA_player7: ""
+      logo_teamA_player8: ""
+      logo_teamA_player9: ""
+      logo_teamA_player10: ""
+      logo_teamA_player11: ""
+      logo_teamA_player12: ""
+    logo_teamB_players:
+      logo_teamB_player1: "logos/thomas_walkup_logo.png"
+      logo_teamB_player2: ""
+      logo_teamB_player3: ""
+      logo_teamB_player4: ""
+      logo_teamB_player5: ""
+      logo_teamB_player6: ""
+      logo_teamB_player7: ""
+      logo_teamB_player8: ""
+      logo_teamB_player9: ""
+      logo_teamB_player10: ""
+      logo_teamB_player11: ""
+      logo_teamB_player12: ""
+background_subtraction:
+  frame_ROI: [0, 835, 3840, 558]
+  distance_threshold: 50.
+  detect_shadows: True
