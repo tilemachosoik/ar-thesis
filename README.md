@@ -1,4 +1,4 @@
-# graphics_rendering_thesis
+# ar_graphics_rendering_thesis
 Code for rendering graphics on court in the context of a diploma thesis
 
 Configure: `./waf configure`
